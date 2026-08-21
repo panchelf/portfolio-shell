@@ -1,0 +1,46 @@
+:root{
+    --p1-color: #F97316;
+    --n2-color: #FDBA74;
+    --n1-color: #155E75;
+    --p2-color: #06b6d4;
+}
+
+svg{
+    width: 600px;
+    height: 600px;
+}
+line{
+    stroke: var(--str);
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-dasharray: var(--len);     
+    stroke-dashoffset: var(--len);  
+    animation: draw 0.3s ease forwards;
+    animation-delay: var(--delay);
+}
+#N15{ --str: var(--n1-color); --len: 25; --delay: 0.45s;}
+#N32{ --str: var(--n2-color); --len: 25; --delay: 0.56s;}
+#N41{ --str: var(--n1-color); --len: 50; --delay: 0.78s;}
+#N50{ --str: var(--n2-color); --len: 50; --delay: 1.0s;}
+#N59{ --str: var(--n1-color); --len: 50; --delay: 1.23s;}
+#N67{ --str: var(--n2-color); --len: 25; --delay: 1.44s;}
+#N85{ --str: var(--n1-color); --len: 25; --delay: 1.88s;}
+#phosphate1{
+    stroke:var(--p1-color);
+    stroke-dasharray: 123.30252075195312;
+    stroke-dashoffset: 123.30252075195312;
+    animation: draw 2s ease forwards;
+}
+#phosphate2{
+    stroke: var(--p2-color);
+    stroke-dasharray: 123.30252075195312;
+    stroke-dashoffset: 123.30252075195312;
+    animation: draw 2s ease forwards;
+    animation-delay: 0.3s;
+}
+
+@keyframes draw{
+    to {
+        stroke-dashoffset: 0;
+    }
+}
