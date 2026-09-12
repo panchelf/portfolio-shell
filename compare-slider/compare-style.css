@@ -1,0 +1,34 @@
+.compare-container {
+    position: relative;
+    width: 600px;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+
+}
+.compare-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.compare-clip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: inset(0 50% 0 0);
+    overflow: hidden;
+}
+.compare-handle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 4px;
+    height: 100%;
+    background: white;
+    cursor: ew-resize;
+    transform: translateX(-50%);
+}
