@@ -4,6 +4,9 @@
     aspect-ratio: 3 / 2;
     overflow: hidden;
 
+    user-select: none;
+    -webkit-user-select: none;
+
 }
 .compare-img {
     position: absolute;
@@ -12,6 +15,8 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+
+    -webkit-user-drag: none;
 }
 .compare-clip {
     position: absolute;
