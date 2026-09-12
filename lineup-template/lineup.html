@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match formation</title>
+    <link rel="stylesheet" href="pitch-style.css">
+</head>
+<body>
+    <div class="info-card">
+        <h3>TEAM LINEUP</h3>
+        <div class="team-toggle">
+            <div class="flag">
+                <img src="../img/flags/argentina.svg" alt="argentina" class="flag-home">
+            </div>
+            <label class="switch">
+                <input type="checkbox" id="team-switch">
+                <span class="slider"></span>
+            </label>
+            <div class="flag">
+                <img src="../img/flags/chile.svg" alt="chile" class="flag-away">
+            </div>
+        </div>
+        <div id="pitch-container"></div>
+        <div id="player-card" class="player-card hidden">
+            <img src="" alt="" id="card-portrait">
+            <div class="card-info">
+                <span id="card-name"></span>
+                <span id="card-number"></span>
+                <span id="card-matches"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="pitch-script.js" defer></script>
+</body>
+</html>

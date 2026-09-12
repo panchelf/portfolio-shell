@@ -1,0 +1,28 @@
+{
+    "home": [
+        { "fullname": "Emiliano Dibu Martínez", "shortname": "E. Martínez", "number": 1, "team": "Argentina", "matches": 10, "x": 5, "xSolo": 5, "y": 35, "ySolo": 35, "photo": "../img/players/Emiliano Martínez.webp" },
+        { "fullname": "Lucas Martínez Quarta", "shortname": "M. Quarta", "number": 2, "team": "Argentina", "matches": 10, "x": 15, "xSolo": 25, "y": 15, "ySolo": 10, "photo": "../img/players/Lucas Martínez Quarta.webp" },
+        { "fullname": "Nicolás Tagliafico", "shortname": "Tagliafico", "number": 3, "team": "Argentina", "matches": 10, "x": 15, "xSolo": 20, "y": 30, "ySolo": 25, "photo": "../img/players/Nicolás Tagliafico.webp" },
+        { "fullname": "Juan Foyth", "shortname": "Foyth", "number": 4, "team": "Argentina", "matches": 10, "x": 15, "xSolo": 20, "y": 45, "ySolo": 45, "photo": "../img/players/Juan Foyth.webp" },
+        { "fullname": "Leandro Paredes", "shortname": "Paredes", "number": 5, "team": "Argentina", "matches": 10, "x": 15, "xSolo": 25, "y": 60, "ySolo": 60, "photo": "../img/players/Leandro Paredes.webp" },
+        { "fullname": "Rodrigo De Paul", "shortname": "De Paul", "number": 7, "team": "Argentina", "matches": 10, "x": 30, "xSolo": 45, "y": 35, "ySolo": 35, "photo": "../img/players/Rodrigo De Paul.webp" },
+        { "fullname": "Lionel Messi", "shortname": "Messi", "number": 10, "team": "Argentina", "matches": 10, "x": 30, "xSolo": 55, "y": 20, "ySolo": 20, "photo": "../img/players/Lionel Messi.webp" },
+        { "fullname": "Ángel Di María", "shortname": "Di María", "number": 11, "team": "Argentina", "matches": 10, "x": 30, "xSolo": 55, "y": 50, "ySolo": 50, "photo": "../img/players/Ángel Di María.webp" },
+        { "fullname": "Cuti Romero", "shortname": "Romero", "number": 13, "team": "Argentina", "matches": 10, "x": 45, "xSolo": 90, "y": 20, "ySolo": 20, "photo": "../img/players/Cuti Romero.webp" },
+        { "fullname": "Lucas Ocampos", "shortname": "Ocampos", "number": 16, "team": "Argentina", "matches": 10, "x": 45, "xSolo": 80, "y": 35, "ySolo": 35, "photo": "../img/players/Lucas Ocampos.webp" },
+        { "fullname": "Lautaro Martínez", "shortname": "L. Martínez", "number": 22, "team": "Argentina", "matches": 10, "x": 45, "xSolo": 90, "y": 50, "ySolo": 50, "photo": "../img/players/Lautaro Martínez.webp" }
+    ],
+    "away": [
+        { "fullname": "Claudio Bravo", "shortname": "Bravo", "number": 1, "team": "Chile", "matches": 10, "x": 105, "xSolo": 105, "y": 35, "ySolo": 35, "photo": "../img/players/Claudio Bravo.webp" },
+        { "fullname": "Mauricio Isla", "shortname": "Isla", "number": 4, "team": "Chile", "matches": 10, "x": 95, "xSolo": 82, "y": 15, "ySolo": 10, "photo": "../img/players/Mauricio Isla.webp" },
+        { "fullname": "Gary Medel", "shortname": "Medel", "number": 17, "team": "Chile", "matches": 10, "x": 95, "xSolo": 90, "y": 30, "ySolo": 25, "photo": "../img/players/Gary Medel.webp" },
+        { "fullname": "Guillermo Maripán", "shortname": "Maripán", "number": 3, "team": "Chile", "matches": 10, "x": 95, "xSolo": 90, "y": 45, "ySolo": 45, "photo": "../img/players/Guillermo Maripán.webp" },
+        { "fullname": "Eugenio Mena", "shortname": "Mena", "number": 2, "team": "Chile", "matches": 10, "x": 95, "xSolo": 82, "y": 60, "ySolo": 60, "photo": "../img/players/Eugenio Mena.webp" },
+        { "fullname": "Erick Pulgar", "shortname": "Pulgar", "number": 5, "team": "Chile", "matches": 10, "x": 80, "xSolo": 65, "y": 35, "ySolo": 35, "photo": "../img/players/Erick Pulgar.webp" },
+        { "fullname": "Tomás Alarcón", "shortname": "Alarcón", "number": 21, "team": "Chile", "matches": 10, "x": 80, "xSolo": 55, "y": 20, "ySolo": 15, "photo": "../img/players/Tomás Alarcón.webp" },
+        { "fullname": "Charles Aránguiz", "shortname": "Aránguiz", "number": 20, "team": "Chile", "matches": 10, "x": 80, "xSolo": 55, "y": 50, "ySolo": 55, "photo": "../img/players/Charles Aránguiz.webp" },
+        { "fullname": "Luis Jiménez", "shortname": "Jiménez", "number": 10, "team": "Chile", "matches": 10, "x": 65, "xSolo": 20, "y": 20, "ySolo": 20, "photo": "../img/players/Luis Jiménez.webp" },
+        { "fullname": "Alexis Sánchez", "shortname": "Sánchez", "number": 7, "team": "Chile", "matches": 10, "x": 65, "xSolo": 30, "y": 35, "ySolo": 35, "photo": "../img/players/Alexis Sánchez.webp" },
+        { "fullname": "Eduardo Vargas", "shortname": "Vargas", "number": 11, "team": "Chile", "matches": 10, "x": 65, "xSolo": 20, "y": 50, "ySolo": 50, "photo": "../img/players/Eduardo Vargas.webp" }
+    ]
+}

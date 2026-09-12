@@ -1,0 +1,26 @@
+<svg class="pitch-svg" xmlns="http://www.w3.org/2000/svg" width="550" height="350" viewBox="0 0 110 70" >
+    <style>
+        .pitch-svg circle{fill: none; stroke: white; stroke-width: 1}
+        .pitch-svg line{stroke: white; stroke-width: 1}
+        .pitch-svg path{fill: none; stroke: white; stroke-width: 1}
+        .pitch-svg rect{fill: lightgrey; stroke: white; stroke-width: 1}
+    </style>
+    <g class="pitch-bg">
+        <rect x="0.5" y="0.5" width="109" height="69"/>
+    </g>
+    <g class="pitch-box">
+        <!-- left box -->
+        <path d="M0,15 h16 v40 L0,55"/>
+        <path d="M0,26 h5 v18 h-5"/>
+        <path d="M16,26 C21 31 21 39 16 44"/>
+
+        <!-- right box -->
+        <path d="M110,15 h-16 v40 h16"/>
+        <path d="M110,26 h-5 v18 h5"/>
+        <path d="M94,26 C89 31 89 39 94 44"/>
+    </g>
+    <g class="pitch-center">
+        <line x1="55" y1="0" x2="55" y2="70"/>
+        <circle cx="55" cy="35" r="9" />
+    </g>
+</svg>
