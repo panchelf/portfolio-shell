@@ -9,7 +9,7 @@
 }
 .hotspot {
     position: absolute;
-    transform: translateX(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 .hotspot-dot {
     display: block;
@@ -34,6 +34,11 @@
     pointer-events: none;
     transition: opacity 0.2s ease;
 }
+.hotspot.flip-caption .hotspot-caption {
+    bottom: auto;
+    top: 120%;
+}
+
 .hotspot:hover .hotspot-caption {
     opacity: 1;
 }
