@@ -7,16 +7,19 @@
     width: 100%;
     display: block;
 }
+.hotspot-frame {
+    position: relative;
+}
 .hotspot {
     position: absolute;
     transform: translate(-50%, -50%);
 }
 .hotspot-dot {
     display: block;
-    width: 16px;
-    height: 16px;
+    width: 12px;
+    height: 12px;
     background: white;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -37,6 +40,12 @@
 .hotspot.flip-caption .hotspot-caption {
     bottom: auto;
     top: 120%;
+}
+.hotspot.left-caption .hotspot-caption {
+    transform: translateX(0);
+}
+.hotspot.right-caption .hotspot-caption {
+    transform: translateX(-100%);
 }
 
 .hotspot:hover .hotspot-caption {

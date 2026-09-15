@@ -4,16 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="expanded.css">
+    <link rel="stylesheet" href="../annotated-photo/annotated-style.css">
     <title>Expanded Panel</title>
 </head>
 <body>
     <div class="card">
-        <button class="expand-toggle">Read More...</button>
-        <div class="expand-panel">
-            <p>Extra details, information or whatever it's needed</p>
+        <div class="hotspot-frame">
+            <img src="../img/mountain-surface.webp" alt="Mount Everest">
+            <div class="hotspot" style="top: 30%; left: 95%;">
+                <span class="hotspot-dot"></span>
+                <div class="hotspot-caption"> <b>Mount Everest</b><br>8,848 meters above sea level</div>
+            </div>
         </div>
+        <div class="expand-panel hotspot-frame">
+            <img src="../img/trench-underwater.webp" alt="Submarine Trenchs">
+            <div class="hotspot" style="top: 62%; left: 54%;">
+                <span class="hotspot-dot"></span>
+                <div class="hotspot-caption"> <b>Atacama Trench</b><br>8,065 meters below sea level</div>
+            </div>
+            <div class="hotspot" style="top: 87%; left: 12%;">
+                <span class="hotspot-dot"></span>
+                <div class="hotspot-caption"> <b>Marianas Trench</b><br>11,035 meters below sea level</div>
+            </div>
+        </div>
+        <button class="expand-toggle">Read More...</button>
     </div>
-    <script src="expanded.js" defer></script>
+    <script type="module" src="expanded.js" defer></script>
     
 </body>
 </html>

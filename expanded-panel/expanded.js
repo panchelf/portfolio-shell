@@ -1,3 +1,5 @@
+import { flipHotspots, repositionHotspots } from '../js/hotspot.js';
+
 const panel = document.querySelector('.expand-panel');
 const toggleBtn = document.querySelector('.expand-toggle');
 
@@ -10,3 +12,11 @@ toggleBtn.addEventListener('click', () => {
 
     panel.classList.toggle('expanded');
 })
+
+// panel.addEventListener('transitionend', () => {
+//     repositionHotspots();
+//     console.log('transition end');
+// })
+
+// repositionHotspots();
+flipHotspots();
