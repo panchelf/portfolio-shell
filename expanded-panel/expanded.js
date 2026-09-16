@@ -13,10 +13,4 @@ toggleBtn.addEventListener('click', () => {
     panel.classList.toggle('expanded');
 })
 
-// panel.addEventListener('transitionend', () => {
-//     repositionHotspots();
-//     console.log('transition end');
-// })
-
-// repositionHotspots();
 flipHotspots();
