@@ -38,6 +38,22 @@ Promise.all([
         })
 })
 
+const teamSwitch = document.querySelector('#team-switch');
+
+teamSwitch.addEventListener('change', () => {
+    const showAway = teamSwitch.checked;
+
+    function isVisible(d) {
+        return (d.team === 'away') === showAway;
+    }
+
+    d3.selectAll('.player-marker')
+        .classed('hidden-marker', d => (d.team === 'away') !== showAway)
+        .attr('cx', d => isVisible(d) ? d.xSolo : d.x)
+        .attr('cy', d => isVisible(d) ? d.ySolo : d.y);
+})
+
+
 
 
 
