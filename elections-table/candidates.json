@@ -1,0 +1,17 @@
+{
+  "Confederation": [
+        { "name": "Corey Hogan", "votes": 45210, "percentage": 38.2 },
+        { "name": "Linda Jensen", "votes": 39876, "percentage": 33.7 },
+        { "name": "Jake Sidhu", "votes": 29223, "percentage": 27.3 }
+    ],
+    "Nose Hill": [
+        { "name": "Jamie Lannister", "votes": 45210, "percentage": 38.2 },
+        { "name": "Joseph Stalin", "votes": 39876, "percentage": 33.7 },
+        { "name": "Optimus Prime", "votes": 29223, "percentage": 27.3 }
+    ],
+    "Centre": [
+        { "name": "Arya Stark", "votes": 45210, "percentage": 38.2 },
+        { "name": "John Doe", "votes": 39876, "percentage": 33.7 },
+        { "name": "Donna Noble", "votes": 29223, "percentage": 27.3 }
+    ]
+}
