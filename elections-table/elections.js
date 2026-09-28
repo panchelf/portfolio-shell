@@ -9,15 +9,20 @@ function renderTable(candidates, district) {
     .data(sorted)
     .join('tr');
 
-    rows.selectAll('td').remove();
-
-    rows.append('td').text(d => d.name);
-    rows.append('td').text(d => d.votes);
-    rows.append('td').text(d => `${d.percentage}%`);
-    console.log(sorted);
-
+    rows.selectAll('td')
+    .data(d => [d.name, d.votes.toLocaleString(), `${d.percentage}%`])
+    .join('td')
+    .text(d => d);
 }
 
-d3.json('candidates.json').then((data) => {
-    renderTable(data['Nose Hill'], 'Nose Hill');
+d3.json('candidates.json').then(data => {
+    const select = d3.select('#district');
+
+    function update() {
+        const city = select.property('value');
+        renderTable(data[city], city);
+    }
+
+    select.on('change', update);
+    update();
 })

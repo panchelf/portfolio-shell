@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="elections.css">
 </head>
 <body>
+    <label for="district">Choose a district</label>
+    <select name="district" id="district">
+        <option value="Confederation" selected>Confederation</option>
+        <option value="Nose Hill">Nose Hill</option>
+        <option value="Centre">Centre</option>
+    </select>
     <table id="results-table">
         <caption></caption>
         <thead>
@@ -14,7 +20,7 @@
         </thead>
         <tbody></tbody>
     </table>
-    <script src="elections.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+    <script src="elections.js" defer></script>
 </body>
 </html>
